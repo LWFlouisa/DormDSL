@@ -20,7 +20,7 @@ Locations in dreams represents ones preconceptions about places theyve never bee
 
   dynamic_reward_allocation
 
-  thresholding($current_probability, 12, 12(
+  thresholding($current_probability, 12, 12)
 
   evolutionary_path = sore_float($current_probability > 0.8) do
     puts "\n#{$current_definition} is highly developed"
