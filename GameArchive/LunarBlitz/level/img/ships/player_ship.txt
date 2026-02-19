@@ -1,0 +1,11 @@
+----___________----
+---/YYYYYYYYYYY\---
+--/YYYYYYYYYYYYY\--
+--|YYY/     \YYY|--
+--|YYY\_____/YYY|--
+--|YYYYYYYYYYYYY|--
+--/YYYYYYYYYYYYY\--
+--|YYY/-----\YYY|--
+--/YY\-------/YY\--
+--\YY/-------\YY/--
+-------------------
