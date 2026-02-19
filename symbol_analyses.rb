@@ -5,7 +5,7 @@
 
   dynamic_reward_allocation
 
-  thresholding($current_probability, 12, 12(
+  thresholding($current_probability, 12, 12)
 
   dream_symbols = sore_float($current_probability > 0.8) do
     puts "\n#{$current_definition} is highly developed"
