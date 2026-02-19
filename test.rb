@@ -68,3 +68,7 @@ end
 def visit_breakfast(a, b)
   "#{a} visits continental breakfast in hallway #{b}"
 end
+
+def wendigo_poodle(a, b)
+  "#{a} observes wendigo poodle at screen door #{b} and actively destroys photographs taken of it. It also sometimes goes inside #{a}."
+end
