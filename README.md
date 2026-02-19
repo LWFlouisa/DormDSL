@@ -12,7 +12,7 @@ Monsters here represent personality trait anomalies, but not necessarily aspects
 
 Locations in dreams represents ones preconceptions about places theyve never been, such as dreaming of Paris or Tokyo as brick roads and pagodas.
 
-~~~
+~~~ruby
 2.times do
   get_statistics(:parked_car,     a,
                  :visited_friend, b,
