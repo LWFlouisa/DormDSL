@@ -46,3 +46,10 @@ Want to collaborate? Read the primer.
   end
 end
 ~~~
+
+### Things To Research
+Traps signifies feeling caught, constrained, or facing a deceptive situation in waking life. It can represent a sense of being powerless, an impending difficulty, or a hidden danger.
+
+Loot symbolizes the discovery of hidden potential, unrealized goals, or a burgeoning sense of personal value and self-worth.
+
+Mutations are abstractions of real world maladies and conditions you might not have experienced first hand, but heard about from someone else.
