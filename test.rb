@@ -7,15 +7,19 @@
 # "We are taking specific parts of our data and tidying them up so that when the computer builds a 'map' of a sentence, it correctly handles a rare word order (Object-Subject-Verb)."
 
 def park_car(a, b)
+  "#{a} parks the car in #{b}."
 end
 
 def meet_friend(a, b
+  "#{a} meets a friend over at #{b}."
 end
 
 def discuss_history(a, b)
+  "#{a} discusses personal history with #{b}."
 end
 
-def collaborate(a, b)
+def collaborate(a, b, c)
+  "#{a} and #{b} collaborate on #{c}."
 end
 
 def extract_persona(a, b, c)
