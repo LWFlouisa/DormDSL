@@ -1,4 +1,4 @@
-Sitemap: https://ipfs.io/ipfs/QmahrE8Y1Dp34hEg73JEge4RL4SB5wftbWpNRrbFwsqpsA
+Sitemap: https://lwflouisa.github.io/DormDSL/Documentation/
 
 User-agent: *
 Disallow: /
