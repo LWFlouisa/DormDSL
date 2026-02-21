@@ -1331,12 +1331,6 @@ end
 ######################################################################################################
 #                                      Standard Enemy Learning                                       #
 ######################################################################################################
-#ouvertoparle("data/player/knowledge_base/knowledge.txt", "a",
-#             "Cette est un cochon, et cette est un jiraff.")
-
-#ouvertoparle("data/player/knowledge_base/knowledge.txt", "a",
-#             "Cette est un femme, et cette est un homme.")
-
 def ouvertoparle(a, b, c)
   File.open(a, "#{b}") { |f|
     f.puts c
@@ -1347,12 +1341,14 @@ def ouvertoparle(a, b, c)
   index = 0
   
   size_limit.times do
-    puts new_data[index]
+    puts "Le monstre avoir: #{new_data[index]}"; sleep(1.5)
+    
+    system("clear")
     
     index = index + 1
   end
   
-  puts "Je finis!"
+  #puts "Je finis!"
 end
 
 def enemy_learn
@@ -1375,7 +1371,7 @@ def enemy_learn
                    dynamic_mode_switcher
   end
 
-  ouvertoparle("data/enemy/enemy_learned/enemy_stealth.txt", "a",
+  ouvertoparle("data/enemy/enemy_learned/enemy_survival.txt", "a",
                $current_definition)
                  
   2.times do
@@ -1386,7 +1382,7 @@ def enemy_learn
     dynamic_mode_switcher
   end
 
-  ouvertoparle("data/enemy/enemy_learned/enemy_stealth.txt", "a",
+  ouvertoparle("data/enemy/enemy_learned/enemy_archival.txt", "a",
                $current_definition)
                
   $index = $index + 1
