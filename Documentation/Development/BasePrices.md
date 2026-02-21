@@ -1,7 +1,7 @@
 ## Base Prices
 Right now the pre-trained model that a live model is compared to prices commodities at: ( This technically makes it darker than Star Trek )
 
-~~~
+~~~ruby
 yen     = 198         #     198
 dirt    = 1 / yen
 
