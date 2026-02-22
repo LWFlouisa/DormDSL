@@ -48,3 +48,36 @@ puts "BASE SHIP PRICES"
 puts "The price of a French starship is: #{price_of_fr_ship.round} in Lunario or #{(price_of_fr_ship * franc).round} franc or #{(price_of_fr_ship * yen).round} yen"
 puts "The price of a Japanese starship is: #{price_of_jp_ship.round} in Lunario or #{(price_of_jp_ship * franc).round} franc or #{(price_of_jp_ship * yen).round} yen"
 ~~~
+
+## Comparing Pre-Trained And Live Models
+Note that here Medusahoseki represents a period of extreme cold weather, and Chevreshanshoo represents extreme hot weather. I'll go more into the Medusa Crystal and Salamander orb later.
+
+~~~
+BASE AMMENTITY PRICES
+The price of a Potion is: 0.0 dirt
+The price of a Suvorexant is: 0.0 dirt
+The price of a Antidote is: 43.1244 yen
+BASE WEAPON PRICES
+The price of a Copper Sword is: 0.0330264 franc or 6.539227199999999 yen
+The price of a Bronze Sword is: 2.4260148 franc or 480.3509304 yen
+The price of a Iron Sword is: 4.2271019999999995 franc or 836.9661959999999 yen
+BASE SHIP PRICES
+The price of a French starship is: 2369 in Lunario or 46911283 franc or 469113 yen
+The price of a Japanese starship is: 174050 in Lunario or 3446191552 franc or 34461916 yen
+ 
+I'm confident it is not [ yen Potions ] as it has only 0.054450000000000005 probability.
+I'm confident it is not [ yen Potions ] because it has 0.10890000000000001.
+ yen for price of 43.1244
+I'm confident it is not [ lunario Spaceship Japanese ] as it has only 0.054450000000000005 probability.
+I'm confident it is not [ lunario Spaceship Japanese ] because it has 0.10890000000000001.
+I'm confident it is not [ lunario Spaceship Japanese ] because it has 0.21780000000000002.
+I'm less unconfident it is not [ lunario Spaceship Japanese ] because it has 0.43560000000000004.
+I'm sure it is [ lunario Spaceship Japanese ] because it has 0.8712000000000001.
+ lunario for price of 344.9952
+
+Memory Period
+lunario
+Distance from Medusahoseki: -260 over this memory was from a prior -9 year period
+lunario.
+Distance from Medusahoseki: -260 over this memory was from a prior -9 year period
+~~~
