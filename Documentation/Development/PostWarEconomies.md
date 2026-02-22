@@ -22,7 +22,7 @@ hybrid_territories = [ ## Food seems to be below the value of a yen.
 ## Death Of Green Peas ( Final Revolutionary Era )
 Green Peas as a food stuff almost dissappeared, while cartons of milk remerged. A personal pet robot is equivlent to a block of tofu. Infrastructure is priced in francs, while government ships are priced in Lunario.
 
-~~~
+~~~ruby
 final_revolutionary_era = [
   [ :yen,        "Tofu Protein",         0.036004061 ], # yen for price of 7.128804078 yen
   [ :yen,      "Carton Of Milk", 0.00129146800000000 ], # yen for price of 0.255710664 yen
