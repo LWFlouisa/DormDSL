@@ -35,3 +35,6 @@ final_revolutionary_era = [
   [ :lunario, "Red ships are easier to survive cold storms than hot storms.", 0.43560000000000004 ], # lunario for price of 172.4976
 ]
 ~~~
+
+## Early Implementation
+[Economic Simulation For My Games](https://github.com/LWFlouisa/DormDSL/blob/main/Documentation/Development/economic_simulator.rb)
